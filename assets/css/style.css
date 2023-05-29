@@ -21,7 +21,8 @@ body {
     padding: 15px;
     border-bottom: .5px solid #ffffff52;
 }
-.left-nav h2{
+
+.left-nav h2 {
     font-size: 21px;
     font-weight: 400;
 }
@@ -41,7 +42,7 @@ body {
     border-radius: 10px;
     font-size: 15px;
     font-weight: 400;
-    
+
 }
 
 .right-nav ul li a:hover {
@@ -50,7 +51,7 @@ body {
     transition: all .5s linear;
 }
 
-#bottom{
+#bottom {
     position: fixed;
     bottom: 0;
     height: 6rem;
@@ -58,8 +59,10 @@ body {
     display: none;
     align-items: center;
     justify-content: center;
+    z-index: 500;
 }
-#bottom .bottom-nav{
+
+#bottom .bottom-nav {
     height: 4rem;
     padding: .5rem 2rem;
     background-color: #151527;
@@ -68,13 +71,15 @@ body {
     align-items: center;
     justify-content: center;
 }
-#bottom .bottom-nav ul{
+
+#bottom .bottom-nav ul {
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-#bottom .bottom-nav li{
+
+#bottom .bottom-nav li {
     color: #fff;
     width: 2.5rem;
     height: 2.5rem;
@@ -86,6 +91,80 @@ body {
     justify-content: center;
     transition: all .4s ease-in-out;
 }
-#bottom .bottom-nav li:hover{
+
+#bottom .bottom-nav li:hover {
     background-color: #4db5ff;
+}
+
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-left,
+.home-right {
+    width: 48%;
+    padding: 2rem;
+}
+
+.home-left h6,
+h4 {
+    color: #656576;
+    margin: 1rem 0;
+    margin-left: 3px;
+    font-size: 1.2rem;
+}
+
+.home-left h1 {
+    font-size: 2.5rem;
+}
+
+.home-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    letter-spacing: 1px;
+}
+.home-content .links{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.home-content .links button{
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: none;
+}
+#resume{
+    border: .8px solid #4db5ff;
+    background-color: transparent;
+    color: #4db5ff;
+}
+#letstalk{
+    background-color: #4db5ff;
+    color: #151527;
+}
+.home-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-right .main-image {
+    width: 17rem;
+    height: 17rem;
+    border-radius: 50%;
+    padding: .5rem;
+    background-color: #f5f5f5;
+    position: relative;
+}
+
+.home-right .main-image img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 62%;
 }

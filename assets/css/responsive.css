@@ -5,3 +5,16 @@
 #bottom{
     display: flex;
 }
+#home{
+    flex-direction: column;
+}
+.home-left,.home-right{
+    width: auto;
+}
+.home-content{
+    text-align: center;
+    letter-spacing: 2px;
+}
+.home-content .links{
+    justify-content: space-evenly;
+}
