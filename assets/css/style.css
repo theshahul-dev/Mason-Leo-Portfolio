@@ -107,6 +107,9 @@ body {
     width: 48%;
     padding: 2rem;
 }
+.home-left{
+    margin-left: 3rem;
+}
 
 .home-left h6,
 h4 {

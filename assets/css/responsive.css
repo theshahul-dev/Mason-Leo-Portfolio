@@ -9,11 +9,11 @@
     flex-direction: column;
 }
 .home-left,.home-right{
+    margin: 0;
     width: auto;
 }
 .home-content{
     text-align: center;
-    letter-spacing: 2px;
 }
 .home-content .links{
     justify-content: space-evenly;
