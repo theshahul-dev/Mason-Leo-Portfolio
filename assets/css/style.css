@@ -49,3 +49,43 @@ body {
     color: #1f1f38;
     transition: all .5s linear;
 }
+
+#bottom{
+    position: fixed;
+    bottom: 0;
+    height: 7rem;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+#bottom .bottom-nav{
+    height: 4rem;
+    padding: .5rem 2rem;
+    background-color: #151527;
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bottom .bottom-nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#bottom .bottom-nav li{
+    color: #fff;
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s ease-in-out;
+}
+#bottom .bottom-nav li:hover{
+    background-color: #4db5ff;
+}
