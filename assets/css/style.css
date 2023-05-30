@@ -341,9 +341,16 @@ h4 {
     border-radius: 1.5rem;
     padding: 2rem .5rem;
     text-align: center;
-    transition: all .5s;
 }
 .services-item img {
     margin-bottom: 1.3rem;
     width: 80%;
+}
+.services-item h1{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.services-item p{
+    font-size: .9rem;
+    line-height: 20px;
 }
