@@ -1,20 +1,37 @@
-#navbar{
+#navbar {
     display: none;
 }
 
-#bottom{
+#bottom {
     display: flex;
 }
-#home{
+
+#home,
+.about-container {
     flex-direction: column;
 }
-.home-left,.home-right{
+
+.home-left,
+.home-right,
+.about-left,
+.about-right {
     margin: 0;
     width: auto;
 }
-.home-content{
+
+.about-right {
+    padding: 3rem;
+}
+
+.home-content {
     text-align: center;
 }
-.home-content .links{
+
+.home-content .links {
     justify-content: space-evenly;
+}
+
+.about-left img {
+    width: 80%;
+    height: 75%;
 }

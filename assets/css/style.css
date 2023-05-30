@@ -20,6 +20,7 @@ body {
     justify-content: space-around;
     padding: 15px;
     border-bottom: .5px solid #ffffff52;
+    z-index: 1;
 }
 
 .left-nav h2 {
@@ -100,6 +101,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .home-left,
@@ -170,4 +172,50 @@ h4 {
     top: 0;
     left: 0;
     border-radius: 62%;
+}
+#about >h1{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.about-content-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.about-left,.about-right{
+    width: 48%;
+}
+.about-right{
+    padding-right: 4rem;
+    display: flex;
+}
+.about-left{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    position: relative;
+}
+.about-left img{
+    width: 70%;
+    height: 75%;
+    border-radius: 1rem;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-content h1{
+    margin-bottom: 1rem;
+}
+.about-content p {
+    margin-bottom: 2rem;
+}
+.about-content a{
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #4db5ff;
+    border-radius: 10px;
+    color: #151527;
+    cursor: pointer;
 }
