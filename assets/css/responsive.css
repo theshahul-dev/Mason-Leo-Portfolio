@@ -8,15 +8,20 @@
 
 #home,
 .about-container {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    text-align: center;
 }
 
 .home-left,
 .home-right,
 .about-left,
-.about-right {
+.about-right,
+.skills-left {
     margin: 0;
     width: auto;
+}
+.skills-right{
+    width: 80%;
 }
 
 .about-right {
@@ -34,4 +39,16 @@
 .about-left img {
     width: 80%;
     height: 75%;
+}
+
+#about>h1 {
+    display: none;
+}
+
+#skills>h1 {
+    margin: 2rem 0 0 0;
+}
+
+.skills-container {
+    flex-direction: column;
 }

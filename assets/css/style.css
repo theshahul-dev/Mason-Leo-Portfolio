@@ -111,7 +111,8 @@ body {
     width: 48%;
     padding: 2rem;
 }
-.home-left{
+
+.home-left {
     margin-left: 3rem;
 }
 
@@ -127,31 +128,36 @@ h4 {
     font-size: 2.5rem;
 }
 
-.home-content{
+.home-content {
     display: flex;
     justify-content: center;
     flex-direction: column;
     letter-spacing: 1px;
 }
-.home-content .links{
+
+.home-content .links {
     display: flex;
     align-items: center;
     gap: 15px;
 }
-.home-content .links button{
+
+.home-content .links button {
     padding: 10px 20px;
     border-radius: 7px;
     border: none;
 }
-#resume{
+
+#resume {
     border: .8px solid #4db5ff;
     background-color: transparent;
     color: #4db5ff;
 }
-#letstalk{
+
+#letstalk {
     background-color: #4db5ff;
     color: #151527;
 }
+
 .home-right {
     display: flex;
     align-items: center;
@@ -175,46 +181,57 @@ h4 {
     left: 0;
     border-radius: 62%;
 }
-#about >h1{
+
+#about>h1 {
     text-align: center;
     margin-bottom: 3rem;
     margin-top: 1rem;
 }
-.about-content-container{
+
+.about-content-container {
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
-.about-left,.about-right{
+
+.about-left,
+.about-right {
     width: 48%;
 }
-.about-right{
+
+.about-right {
     padding-right: 4rem;
     display: flex;
 }
-.about-left{
+
+.about-left {
     display: flex;
     /* align-items: center; */
     justify-content: center;
     position: relative;
 }
-.about-left img{
+
+.about-left img {
     width: 70%;
     height: 75%;
     border-radius: 1rem;
 }
-.about-container{
+
+.about-container {
     display: flex;
     justify-content: space-around;
 }
-.about-content h1{
+
+.about-content h1 {
     margin-bottom: 1rem;
 }
+
 .about-content p {
     margin-bottom: 2rem;
 }
-.about-content a{
+
+.about-content a {
     padding: 10px 20px;
     text-decoration: none;
     background-color: #4db5ff;
@@ -223,6 +240,81 @@ h4 {
     cursor: pointer;
 }
 
-#skills{
-    padding-top: 8rem;
+#skills>h1 {
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+}
+
+.skills-left,
+.skills-right {
+    width: 48%;
+}
+
+.skills-left {
+    display: flex;
+    justify-content: center;
+}
+
+.skills-left img {
+    width: 80%;
+    height: 60%;
+}
+
+
+.skills-right {
+    width: 50%;
+}
+
+.skills-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.html {
+    width: 99%;
+    background-color: #e54c21;
+}
+.css{
+    width: 80%;
+    background-color: #00a0e4;
+}
+.js{
+    width: 55%;
+    background-color: #ffff00;
+}
+.bootstrap{
+    width: 60%;
+    background-color: #7952b3;
+}
+.reactjs{
+    width: 45%;
+    background-color: #e4fb61;
+}
+.learning{
+    width: 99%;
+    background-color: #61dbfb;
+}
+.bar {
+    margin: 2rem 0;
+    height: .5rem;
+    border-radius: 12px;
+    position: relative;
+}
+
+.bar-content {
+    position: absolute;
+    bottom: 10px;
+}
+
+.bar-content-left {
+    left: 0;
+}
+
+.bar-content-right {
+    right: 0;
 }
