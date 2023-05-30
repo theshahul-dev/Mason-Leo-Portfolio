@@ -52,3 +52,7 @@
 .skills-container {
     flex-direction: column;
 }
+.services-container{
+    flex-direction: column;
+    margin: auto;
+}
