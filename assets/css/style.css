@@ -346,6 +346,13 @@ h4 {
     border-radius: 1.5rem;
     padding: 2rem .5rem;
     text-align: center;
+    cursor: pointer;
+    transition: all .5s;
+}
+.services-item:hover{
+    background-color: #2c2c6c76;
+    border: .5px solid #2c2c6c76;
+    transform: scale(1.01);
 }
 .services-item img {
     margin-bottom: 1.3rem;
