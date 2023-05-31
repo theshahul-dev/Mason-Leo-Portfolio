@@ -440,6 +440,7 @@ margin-bottom: 1rem;
     margin: auto;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3rem;
 }
 .form-div input,
 
@@ -465,3 +466,39 @@ input:focus,textarea:focus{
     font-size: .9rem;
     letter-spacing: 1px;
 }
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00a0e4;
+    padding: 2rem 0rem;
+    font-size: 1.1rem;
+    color: #1f1f38;
+}
+.footer-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-container ul{
+    display: flex;
+    list-style: none;
+    margin-bottom: 10px;
+}
+.footer-container ul:first-child li{
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    transition: all .5s linear;
+}
+.footer-container ul:first-child li:hover{
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+.social-links li{
+    margin-left: 20px;
+}
+

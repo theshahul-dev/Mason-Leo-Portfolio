@@ -56,3 +56,10 @@
     flex-direction: column;
     margin: auto;
 }
+
+.footer-container ul:first-child{
+    display: none;
+}
+footer{
+    padding: 2rem 0 7rem 0;
+}
