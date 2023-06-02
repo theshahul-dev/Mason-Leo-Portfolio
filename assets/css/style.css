@@ -10,8 +10,8 @@ html{
 }
 
 body {
-    background-color: #1f1f38;
-    color: #f5f5f5;
+    background-color: #212A3E;
+    color: #F1F6F9;
 }
 
 #navbar {
@@ -22,9 +22,9 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 15px;
-    border-bottom: .5px solid #ffffff52;
+    border-bottom: .5px solid #3a455e;
     z-index: 9999;
-    background-color: #1f1f38;
+    background-color: #212A3E;
 }
 
 .left-nav h2 {
@@ -42,7 +42,7 @@ body {
     margin: 0 5px;
     text-decoration: none;
     display: block;
-    color: #f5f5f5;
+    color: #F1F6F9;
     padding: 10px 15px;
     border-radius: 10px;
     font-size: 15px;
@@ -51,8 +51,8 @@ body {
 }
 
 .right-nav ul li a:hover {
-    background-color: #f5f5f5;
-    color: #1f1f38;
+    background-color: #9BA4B5;
+    color: #212A3E;
     transition: all .5s linear;
 }
 
@@ -70,14 +70,14 @@ body {
 #bottom .bottom-nav {
     height: 4rem;
     padding: .5rem 2rem;
-    background-color: #151527;
+    background-color: #1b212d;
     border-radius: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 #bottom a{
-    color: #f5f5f5;
+    color: #F1F6F9;
 }
 
 #bottom .bottom-nav ul {
@@ -88,7 +88,7 @@ body {
 }
 
 #bottom .bottom-nav li {
-    color: #fff;
+    color: #F1F6F9;
     width: 2.5rem;
     height: 2.5rem;
     cursor: pointer;
@@ -101,7 +101,7 @@ body {
 }
 
 #bottom .bottom-nav li:hover {
-    background-color: #4db5ff;
+    background-color: #29395c;
 }
 
 #home {
@@ -153,14 +153,14 @@ h4 {
 }
 
 #resume {
-    border: .8px solid #4db5ff;
+    border: .8px solid #9BA4B5;
     background-color: transparent;
-    color: #4db5ff;
+    color: #9BA4B5;
 }
 
 #letstalk {
-    background-color: #4db5ff;
-    color: #151527;
+    background-color: #9BA4B5;
+    color: #212A3E;
 }
 
 .home-right {
@@ -239,9 +239,9 @@ h4 {
 .about-content a {
     padding: 10px 20px;
     text-decoration: none;
-    background-color: #4db5ff;
+    background-color: #9BA4B5;
     border-radius: 10px;
-    color: #151527;
+    color: #212A3E;
     cursor: pointer;
 }
 
@@ -341,8 +341,8 @@ h4 {
 }
 .services-item{
     width: 20rem;
-    background: #2c2c6c;
-    border: .5px solid #2c2c6c;
+    background: #394867;
+    border: .5px solid #394867;
     border-radius: 1.5rem;
     padding: 2rem .5rem;
     text-align: center;
@@ -350,8 +350,8 @@ h4 {
     transition: all .5s;
 }
 .services-item:hover{
-    background-color: #2c2c6c76;
-    border: .5px solid #2c2c6c76;
+    background-color: #29354d;
+    border: .5px solid #29354d;
     transform: scale(1.01);
 }
 .services-item img {
@@ -384,7 +384,7 @@ h4 {
 
 .project-item {
     width: 20rem;
-    background: #2c2c6c;
+    background: #394867;
     border-radius: 1.5rem;
    padding: .5rem .5rem;
     text-align: center;
@@ -422,13 +422,13 @@ margin-bottom: 1rem;
     cursor: pointer;
 }
 .project-links a:first-child{
-    background-color:#2c2c6c;
-    border: 1px solid #00a0e4;
-    color: #00a0e4;
+    background-color:#394867;
+    border: 1px solid #9BA4B5;
+    color: #9BA4B5;
 }
 .project-links a:last-child{
-    background-color: #4db5ff;
-    color: #1f1f38;
+    background-color: #9BA4B5;
+    color: #212A3E;
 
 }
 #contact>h1{
@@ -452,7 +452,7 @@ margin-bottom: 1rem;
 .form-div input,
 
 textarea {
-    border: 2px solid rgba(77, 181, 255, .4);
+    border: 2px solid #9ba4b5ce;
     border-radius: .5rem;
     width: 100%;
     margin: 0.5rem 0rem;
@@ -460,13 +460,16 @@ textarea {
     background: transparent;
     margin: 0.5rem 0rem;
     padding: 0.5rem 1rem;
-    color: white;
+    color: #F1F6F9;
     resize: none;
     box-sizing: border-box;
 }
 input:focus,textarea:focus{
     outline: none;
-    border: 2px solid #00a0e4;
+    border: 2px solid #9BA4B5;
+}
+input::placeholder,textarea::placeholder{
+    color: #F1F6F9;
 }
 .form-div input[type="submit"]{
     cursor: pointer;
@@ -477,10 +480,10 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #00a0e4;
+    background-color: #394867;
     padding: 2rem 0rem;
     font-size: 1.1rem;
-    color: #1f1f38;
+    color: #F1F6F9;
 }
 .footer-container{
     width: 80%;
@@ -502,8 +505,9 @@ footer{
     transition: all .5s linear;
 }
 .footer-container ul:first-child li:hover{
-    background-color: #f5f5f5;
+    background-color: #9BA4B5;
     cursor: pointer;
+    color: #394867;
 }
 .social-links li{
     margin-left: 20px;
