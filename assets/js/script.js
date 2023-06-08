@@ -1,0 +1,1 @@
+// ScrollReveal().reveal('.home-content',{distance:'100px',delay:500,origin:'left',reset:true});
