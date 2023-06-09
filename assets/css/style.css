@@ -210,7 +210,7 @@ h4 {
     font-size: 30px;
 }
 
-.about-container{
+.about-container {
     display: flex;
     justify-content: space-around;
 }
@@ -223,19 +223,21 @@ h4 {
 
 
 
-.about-left{
+.about-left {
     display: flex;
     justify-content: center;
 }
+
 .about-left img {
     width: 75%;
     height: 500px;
     border-radius: 1rem;
 }
 
-.about-content{
+.about-content {
     /* height: 100%; */
 }
+
 .about-content h1 {
     margin-bottom: 1rem;
     font-size: 25px;
@@ -353,11 +355,25 @@ h4 {
     background: #282b30;
     border: .5px solid #282b30;
     border-radius: 1.5rem;
-    padding: 2rem 2rem;
     text-align: center;
     cursor: pointer;
     transition: all .5s;
+    position: relative;
+    min-height: 25rem;
     box-sizing: border-box;
+   
+}
+.service-content{
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .services-item:hover {
@@ -367,7 +383,7 @@ h4 {
 
 .services-item img {
     margin-bottom: 1.3rem;
-    width: 80%;
+    width: 100%;
 }
 
 .services-item h1 {
@@ -401,20 +417,21 @@ h4 {
     box-sizing: border-box;
     min-height: 25rem;
 
-    .project-content {
-        padding: 2rem;
-        background-color: #1e2124a3;
-        position: absolute;
-        top: 0;
-        left: 0;
-        border-radius: inherit;
-        box-sizing: border-box;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        transition: all .5s;
-    }
+
+}
+.project-content {
+    padding: 2rem;
+    background-color: #282b30;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: inherit;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all .5s;
 }
 
 .project-content h1,
@@ -429,13 +446,13 @@ h4 {
     width: 100%;
     height: 100%;
     border-radius: inherit;
-    opacity: 0.2;
+    opacity: 0.8;
+    display: none;
 }
 
 .project-content:hover {
-    background-color: #1e212400;
+    background-color: #1e2124;
 }
-
 .project-links {
     display: flex;
     align-items: center;
@@ -447,7 +464,7 @@ h4 {
     border-radius: 10px;
     text-decoration: none;
     cursor: pointer;
-    background-color: #282b3054;
+    background-color: #282b30;
     color: #f7f7f7;
     border: 1px solid transparent;
 }
@@ -511,7 +528,6 @@ footer {
     justify-content: center;
     background-color: #282b30;
     padding: 2rem 0rem;
-    font-size: 1.1rem;
     color: #f7f7f7;
 }
 
@@ -528,6 +544,7 @@ footer {
     display: flex;
     list-style: none;
     margin-bottom: 10px;
+    font-size: 15px;
 }
 
 .footer-container ul:first-child li {
@@ -535,6 +552,7 @@ footer {
     border-radius: 5px;
     margin-left: 5px;
     transition: all .5s linear;
+
 }
 
 .footer-container ul:first-child li:hover {
