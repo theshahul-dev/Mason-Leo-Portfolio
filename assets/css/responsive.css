@@ -67,10 +67,9 @@
 }
 
 .services-container {
-    flex-direction: column;
+    /* flex-direction: column; */
     margin: auto;
 }
-
 .footer-container ul:first-child {
     display: none;
 }
