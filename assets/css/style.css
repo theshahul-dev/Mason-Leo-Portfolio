@@ -15,6 +15,7 @@ body {
     background-color: #1e2124;
     color: #f7f7f7;
     user-select: none;
+    overflow-x: hidden;
 }
 
 #navbar {
@@ -221,7 +222,6 @@ h4 {
 .about-right {
     width: 48%;
 }
-
 
 
 
